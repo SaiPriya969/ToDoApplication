@@ -1,0 +1,8 @@
+<!-- <p>header works!</p> -->
+<div id="header">
+    <!-- <div>{{val1+"-"+val2}}</div> -->
+    <div>Name:<app-input-fields [inputTo1]="val1" (opToheader)="name($event)"></app-input-fields></div> 
+    <div>Description:<app-input-fields [inputTo2]="val2" (opToheader2)="description($event)"></app-input-fields></div>
+    <button (click)="fun2()">ADD</button>
+    <!-- <app-add></app-add> -->
+</div>

@@ -1,0 +1,6 @@
+
+#list{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(238, 192, 192);
+}

@@ -1,0 +1,8 @@
+<!-- <p>list works!</p> -->
+<h1>LIST:</h1>
+<div *ngFor="let i of arr; index as idx">
+    <div id="list">
+        <li style="list-style-type: none" *ngIf="i">{{i}}</li>
+        <button (click)="del(idx)">Delete</button>
+    </div>
+</div>
